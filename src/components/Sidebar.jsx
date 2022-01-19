@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { RiHomeFill } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
-//import logo from '../assets/logo.png';
 import { categories } from "../utils/data";
 
 const isNotActiveStyle =
@@ -24,7 +23,6 @@ const Sidebar = ({ closeToggle, user }) => {
           onClick={handleCloseSidebar}
         >
           <h2 className="mx-8 text-2xl p-1	text-logoColor	">BadaBing</h2>
-          {/* <img src={logo} alt="logo" className="w-full" /> */}
         </Link>
         <div className="flex flex-col gap-5">
           <NavLink
